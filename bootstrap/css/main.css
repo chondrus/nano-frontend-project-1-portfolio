@@ -1,0 +1,79 @@
+/*
+ * default/basic styles for udacity front-end nano degree project 1
+ *
+ * mostly adds on or tweaks bootstrap styles - 
+ * for cleanliness, no changes were made to bootstrap.css
+ *
+ * classes with -s below are bootstrap's; classes with _s are local
+ */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-weight: 200;
+}
+h2 {
+    font-weight: 300;
+    color: gainsboro;
+}
+h3 {
+    font-weight: 400;
+    color: gray;
+}
+h4 {
+    font-weight: 300;
+}
+
+/* page header */
+.page-header {
+    text-align: center;
+    margin-top: 30px;
+}
+.header_image {
+    max-width: 100px;
+    max-height: 100px;
+    display: inline;
+    border-radius: 50%;
+}
+.header_title {
+    margin-bottom: 2px;
+}
+.header_subtitle {
+    margin-top: 3px;
+}
+
+/* splash */
+.splash {
+    text-align: center;
+}
+.splash_image {
+    display: inline;
+}
+
+/* furballs */
+.furballs {
+    text-align: center;
+}
+.furball {
+    margin: 0 0 20px;
+}
+.furball_image {
+    display: inline;
+}
+.furball_title {
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.furball_link {
+    margin-top: 0;
+}

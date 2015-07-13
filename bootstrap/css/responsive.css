@@ -1,0 +1,25 @@
+/*
+ * responsive styles for udacity front-end nano degree project 1
+ */
+
+/* bootstrap tweaks some things @768 but we do not */
+
+/* bootstrap's switch from all-columns-vertical to grid is @992px */
+@media only screen and (min-width: 992px) {
+    .header_text {
+        text-align: right;
+    }
+    .header_image {
+        text-align: left;
+    }
+
+    .furballs_title {
+        text-align: left;
+    }
+    /* not sure why this was necessary to prevent the furball images from being scaled down*/
+    .furball_image {
+        min-width: 300px;
+    }
+}
+
+/* bootstrap tweaks some things @1200 but we do not */

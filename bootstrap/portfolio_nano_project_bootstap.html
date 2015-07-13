@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/responsive.css">
+
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+
+
+    <body>
+        <div class="container">
+            <div class="page-header">
+                <div class="row">
+                    <div class="col-md-3">
+                        <!-- very small image, so no alternates -->
+                        <img
+                            class="img-responsive header_image" 
+                            src="images/fluffynose_close_default.jpg"
+                            alt="closeup of a black cat's nose">
+                    </div>
+                    <div class="col-md-9 text-uppercase header_text">
+                        <h1 class="header_title">Fluffypants</h1>
+                        <h4 class="header_subtitle">& Friends</h2>
+                    </div>
+                </div>
+            </div>
+
+            <section class="splash">
+                <div class="row">
+                    <div class="col-md-12">
+                        <picture>
+                            <source
+                                media="(min-width: 1200px)"
+                                srcset="images/both_cats_spread_large_1x.jpg 1x, images/both_cats_spread_large_2x.jpg 2x">
+                            <source
+                                media="(min-width: 992px)"
+                                srcset="images/both_cats_spread_medium_1x.jpg 1x, images/both_cats_spread_medium_2x.jpg 2x">
+                            <img
+                                class="img-responsive splash_image"
+                                src="images/both_cats_default.jpg"
+                                alt="Picture of an orange tabby (Hammers) and black cat (Fluffypants) sleeping on a beat-up pillow">
+                        </picture>
+                    </div>
+                </div>
+            </section>
+
+            <section class="furballs">
+                <div class="row furballs_title">
+                    <div class="col-md-12">
+                        <h2>All the Furballs</h2>
+                    </div>
+                </div>
+
+                <div class="row furballs_content">
+                    <div class="col-md-4">
+                        <article class="furball">
+
+                            <picture>
+                                <source
+                                    media="(min-width: 1200px)"
+                                    srcset="images/hammers_grid_medium_1x.jpg 1x, images/hammers_grid_medium_2x.jpg 2x">
+                                <source
+                                    media="(min-width: 992px)"
+                                    srcset="images/hammers_grid_small_1x.jpg 1x, images/hammers_grid_small_1x.jpg 2x">
+                                <source
+                                    srcset="images/hammers_down_1x.jpg 1x, images/hammers_down_2x.jpg 2x">
+                                <img
+                                    class="img-responsive furball_image"
+                                    src="images/hammers_default.jpg"
+                                    alt="Picture of orange tabby (Hammers)">
+                            </picture>
+
+                            <h3 class="furball_title">Hammers</h3>
+                            <p class="furball_link"><a href="https://en.wikipedia.org/wiki/Hammer">More Hammers</a></p>
+                        </article>
+                    </div>
+
+                    <div class="col-md-4">
+                        <article class="furball">
+
+                            <picture>
+                                <source
+                                    media="(min-width: 1200px)"
+                                    srcset="images/fluffypants_grid_medium_1x.jpg 1x, images/fluffypants_grid_medium_2x.jpg 2x">
+                                <source
+                                    media="(min-width: 992px)"
+                                    srcset="images/fluffypants_grid_small_1x.jpg 1x, images/fluffypants_grid_small_1x.jpg 2x">
+                                <source
+                                    srcset="images/fluffypants_down_1x.jpg 1x, images/fluffypants_down_2x.jpg 2x">
+                                <img
+                                    class="img-responsive furball_image"
+                                    src="images/fluffypants_default.jpg"
+                                    alt="Picture of black cat (Fluffypants)">
+                            </picture>
+
+                            <h3 class="furball_title">Fluffypants</h3>
+                            <p><a href="https://en.wikipedia.org/wiki/Trousers">More Pants</a></p>
+                        </article>
+                    </div>
+
+                    <div class="col-md-4">
+                        <article class="furball">
+
+                            <picture>
+                                <source
+                                    media="(min-width: 1200px)"
+                                    srcset="images/friends_grid_medium_1x.jpg 1x, images/friends_grid_medium_2x.jpg 2x">
+                                <source
+                                    media="(min-width: 992px)"
+                                    srcset="images/friends_grid_small_1x.jpg 1x, images/friends_grid_small_1x.jpg 2x">
+                                <source
+                                    srcset="images/friends_down_1x.jpg 1x, images/friends_down_2x.jpg 2x">
+                                <img
+                                    class="img-responsive furball_image"
+                                    src="images/friends_default.jpg"
+                                    alt="Picture of a friend (a turkey)">
+                            </picture>
+
+                            <h3 class="furball_title">Friends</h3>
+                            <p><a href="https://en.wikipedia.org/wiki/Friendship">More Friends</a></p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
