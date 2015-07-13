@@ -1,0 +1,72 @@
+/*
+ * responsive styles for udacity front-end nano degree project 1
+ */
+
+.header, .collection_list {
+    /*from https://css-tricks.com/using-flexbox/*/
+    /*display: -webkit-box;     OLD - iOS 6-, Safari 3.1-6 - excluding; wrap is too buggy*/
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex; 
+
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 440px) {
+    .header_title {
+        font-size: 2.5em;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+
+    .header_title {
+        font-size: 3.00em;
+    }
+    .header_subtitle {
+        font-size: 1.25em;
+    }
+
+    .vienna {
+        width: calc(50% - 10px);
+        margin-right: 10px;
+    }
+    .bugs {
+        width: calc(50% - 10px);
+        margin-left: 10px;
+    }
+    .flowers {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 950px) {
+
+    .header_title {
+        font-size: 3.5em;
+    }
+    .container {
+        width: 920px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .collection {
+        margin-right: 20px;
+        margin-left: 0;
+    }
+    .collection:last-of-type {
+        margin-right:0;
+    }
+    .vienna {
+        width: calc((100% - 40px)/3);
+    }
+    .bugs {
+        width: calc((100% - 40px)/3);
+    }
+    .flowers {
+        width: calc((100% - 40px)/3);
+    }
+}
