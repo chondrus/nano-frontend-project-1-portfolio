@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Doette Snapshot</title>
+        
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    </head>
+
+    <body>
+        <div class="container">
+
+            <section class="header">
+                <!-- very small image, so no alternates -->
+                <img class="header_logo" src="images/logo.jpg" alt="logo">
+                <div class="header_text">
+                    <h1 class="header_title">Jane Doette</h1>
+                    <h4 class="header_subtitle">Selected Photos</h2>
+                </div>
+            </section>
+
+            <section class="splash">
+                <picture>
+                    <source
+                        media="(min-width: 950px)"
+                        srcset="images/splash_detailed_large_1x.jpg 1x, images/splash_detailed_large_2x.jpg 2x">
+                    <source
+                        media="(min-width: 650px)"
+                        srcset="images/splash_detailed_medium_1x.jpg 1x, images/splash_detailed_medium_2x.jpg 2x">
+                    <source
+                        srcset="images/splash_color_1x.jpg 1x, images/splash_color_2x.jpg 2x">
+                    <img 
+                        class="splash_image" 
+                        src="images/splash_default.jpg"
+                        alt="large picture">
+                </picture>
+            </section>
+
+            <section class="collections">
+                <h2 class="collections_title">Featured Collections</h2>
+                <div class="collection_list">
+                    <div class="collection vienna">
+                        <acticle>
+                            <picture>
+                                <source
+                                    media="(min-width: 950px)"
+                                    srcset="images/vienna_3col_1x.jpg 1x, images/vienna_3col_2x.jpg 2x">
+                                <source
+                                    media="(min-width: 650px)"
+                                    srcset="images/vienna_2col_1x.jpg 1x, images/vienna_2col_2x.jpg 2x">
+                                <source
+                                    srcset="images/vienna_1col_1x.jpg 1x, images/vienna_1col_2x.jpg 2x">
+                                <img
+                                    class="collection_sample" 
+                                    src="images/vienna_default.jpg"
+                                    alt="large picture">
+                            </picture>
+                            <h3 class="collection_title">Vienna</h3>
+                            <p class="collection_link"><a href="collections/vienna">More pictures</a></p>
+                        </article>
+                    </div>
+
+                    <div class="collection bugs">
+                        <article>
+                            <picture>
+                                <source
+                                    media="(min-width: 950px)"
+                                    srcset="images/bug_3col_1x.jpg 1x, images/bug_3col_2x.jpg 2x">
+                                <source
+                                    media="(min-width: 650px)"
+                                    srcset="images/bug_2col_1x.jpg 1x, images/bug_2col_2x.jpg 2x">
+                                <source
+                                    srcset="images/bug_1col_1x.jpg 1x, images/bug_1col_2x.jpg 2x">
+                                <img 
+                                    class="collection_sample" 
+                                    src="images/bug_default.jpg"
+                                    alt="large picture">
+                            </picture>
+                            <h3 class="collection_title">Bugs</h3>
+                            <p class="collection_link"><a href="collections/bugs">More pictures</a></p>
+                        </article>
+                    </div>
+
+                    <div class="collection flowers">
+                        <article>
+                            <picture>
+                                <source
+                                    media="(min-width: 950px)"
+                                    srcset="images/flower_3col_1x.jpg 1x, images/flower_3col_2x.jpg 2x">
+                                <source
+                                    media="(min-width: 650px)"
+                                    srcset="images/flower_2col_1x.jpg 1x, images/flower_2col_2x.jpg 2x">
+                                <source
+                                    srcset="images/flower_1col_1x.jpg 1x, images/flower_1col_2x.jpg 2x">
+                                <img 
+                                    class="collection_sample" 
+                                    src="images/flower_default.jpg"
+                                    alt="large picture">
+                            </picture>
+                            <h3 class="collection_title">Flowers</h3>
+                            <p class="collection_link"><a href="collections/flowers">More pictures</a></p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
