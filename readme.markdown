@@ -7,7 +7,7 @@ There are two different pages here - one that uses bootstrap and one that relies
 ### Bootstrap Version ###
 
 * The 3 furball pictures each have 4 images. 
-	* There are 3 pictures for when `<picture>` is supported, and a fallback default picture for when it isn't. 
+	* There are 3 pictures for when `<picture>` is supported, and a fallback default picture for when it isn't.
 	* 2 pictures are for when Bootstrap displays in the grid system - 992 and 1200 pixels.
 	* 1 picture is for when Bootstrap displays everything in 1 long column. 
 	* 1 is the default image. In order to accommodate a wide range of screen sizes while still keeping a small file size, the default image is larger than the 2 images for griding but smaller than the image for when all column sizes take up the whole row.
