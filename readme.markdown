@@ -2,7 +2,9 @@
 
 ## Notes ##
 
-There are two different pages here - one that uses bootstrap and one that relies only on flexbox.
+There are two different pages here - one that uses `bootstrap` and one that relies only on flexbox.
+
+The `bootstrap` version is the one that should be reviewed.
 
 ### Bootstrap Version ###
 
